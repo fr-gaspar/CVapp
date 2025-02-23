@@ -1,8 +1,0 @@
-fastapi
-uvicorn
-torch
-clip
-ultralytics
-nest_asyncio
-pillow
-requests
