@@ -1,7 +1,6 @@
 fastapi
 uvicorn
 torch
-torchvision
 Pillow
 clip-by-openai
 nest_asyncio
