@@ -11,3 +11,8 @@
 - Frontend located on https://cv-frontend-zxd1.onrender.com
 - The cloud provider has a policy to shutdown innactive deployments, if this is checked after a few days it may need to be redeployed again,just send me a message and ill put it back up again
 
+
+ ### Notes
+ - Unfortunately i had trouble setting up the billing options with other providers (GCloud, AWS and Heroku) and i had to settle for Render, the only free cloud development tool i was able to find. This caused some issues after i upgraded the app to support more functionalites, the cloud environment runs out of memory for all the dependencies that need to be installed and i am not able to make a deployment. With this being said i am fairly confident that this version is able to be deployed on other platforms.
+ - The local version works just fine.
+
