@@ -11,7 +11,7 @@ import io
 from PIL import Image, ImageDraw
 
 # FastAPI Server URL
-API_URL = "https://your-fastapi-backend.onrender.com"
+API_URL = "https://cv-backend-lc0e.onrender.com"
 
 st.title("Computer Vision Interface")
 st.write("Upload an image and choose an action")
