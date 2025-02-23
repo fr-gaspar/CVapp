@@ -14,8 +14,8 @@
 
  ### Notes
  - The app is able to perform object detection and image classification. I started by implementing only the object detection and then built the image classification on top of it. After i added the image classification cloud deployment stopped working properly as explained in next topic.
- - Unfortunately i had trouble setting up the billing options with other providers (GCloud, AWS and Heroku) and i had to settle for Render, the only free cloud development tool i was able to find. This caused some issues after i upgraded the app to support more functionalites, the cloud environment runs out of memory for all the dependencies that need to be installed and i am not able to make a deployment. With this being said i am fairly confident that this version is able to be deployed on other platforms.
- - The local version works just fine.
+ - Unfortunately i had trouble setting up the billing options with other providers (GCloud, AWS and Heroku) and i had to settle for Render, the only free cloud development tool i was able to find. This caused some issues after i upgraded the app to support more functionalites, the cloud environment runs out of memory for all the dependencies that need to be installed and i am not able to make a deployment. With this being said i am fairly confident that this version is able to be deployed if there was a larger memory limit.
+ - The local version still works just fine.
  - For both functionalities the user is able to chose which objects to detect and look for in the images (they are hardcoded though, maybe having a selection of objects on the frontend for the user to chose could be interesting, but once i started adding them the UI became cluttered)
  - The image classification has a customizable confidence threshold for the detection. Lower values will be able to return more objects, though with more false positives, while a higher value will return fewer objects but with higher accuracy
 
