@@ -1,6 +1,6 @@
 fastapi
 uvicorn
-torch==1.7.1
+torch==2.0.1
 torchvision
 Pillow
 clip-by-openai==1.1
