@@ -1,8 +1,8 @@
 fastapi
 uvicorn
-torch==2.0.1
-torchvision
-Pillow
-clip-by-openai==1.1
-nest_asyncio
+torch
+clip
 ultralytics
+nest_asyncio
+pillow
+requests
